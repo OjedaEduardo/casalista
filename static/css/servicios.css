@@ -1,0 +1,84 @@
+:root {
+    --color-fondo-header-footer: #B6DAB8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+
+
+
+section {
+    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 100%;
+
+
+}
+
+
+
+div {
+    margin-left: 4%;
+
+}
+
+.foto {
+    margin: 2%;
+    width: 20vw;
+    height: 34vh;
+    border-radius: 30%;
+    border: double #356194;
+}
+
+
+.descripcion {
+    background-color: rgb(221, 212, 212);
+    border-radius: 1%
+}
+
+h4 {
+    margin: 2%;
+    margin-top: 5%;
+}
+
+p {
+    margin: 2%;
+}
+
+@media screen and (max-width:425px) {
+
+    section {
+        margin-left: 5%;
+        margin-top: 2.5%;
+        margin-bottom: 1.5%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 50%;
+
+    }
+
+    div {
+        margin-left: 3%;
+
+    }
+
+    .foto {
+        margin: 5%;
+        width: 70%;
+        height: 100%;
+        border-radius: 30%;
+        border: double #356194;
+    }
+}

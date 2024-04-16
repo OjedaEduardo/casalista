@@ -1,0 +1,89 @@
+:root {
+    --color-fondo-header-footer: #B6DAB8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+
+
+
+section {
+    border: double #356194;
+    margin-left: 15%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    width: 70%;
+
+
+}
+
+.en-linea {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+
+div {
+    margin-left: 4%;
+
+
+}
+
+.foto {
+    margin: 5%;
+    width: 20vw;
+    height: 34vh;
+    border-radius: 30%;
+    border: double #356194;
+}
+
+.derecha {
+    margin: 10%;
+    width: 75%;
+    height: 80%;
+}
+
+h2 {
+    margin-top: 10%;
+}
+
+p {
+    margin-top: 10%;
+}
+
+
+
+@media screen and (max-width:425px) {
+    .en-linea {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    div {
+        margin-left: 5%;
+
+    }
+
+    .foto {
+        margin: 5%;
+        width: 80%;
+        height: 34vh;
+        border-radius: 30%;
+        border: double #356194;
+    }
+}
